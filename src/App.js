@@ -84,8 +84,7 @@ class App extends Component {
             <Form inline className="form-inline ">
               <div className="flex">
                 <Search data={val => this.getSearch(val)} />
-{/* 
-                <Button type="Search"> Submit</Button> */}
+{/*                 <Button type="Search"> Submit</Button> */}
                 <div className="icon">
                   <Rating
                     setRate={x => this.setRate(x)}
